@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">E_medical</string>
+    <string name="title_activity_list">listActivity</string>
+    <string name="button">Start</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".add">
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student name"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood type"
+        android:textSize="30sp"/>
+    <Spinner
+        android:id="@+id/blood1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health status:"
+            android:textSize="30sp"/>
+
+    <CheckBox android:id="@+id/checkbox_Asthma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asthma"
+        android:onClick="onCheckboxClicked"/>
+     <CheckBox android:id="@+id/checkbox_blood_pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood pressure"
+            android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_heart_disease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heart disease"
+            android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_diabetes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diabetes"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_other"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="other"
+    android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="None"
+        android:onClick="onCheckboxClicked"/>
+    </LinearLayout>
+
+</LinearLayout>
