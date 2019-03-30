@@ -23,6 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="Name"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -41,6 +42,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@+id/name_value"
                 android:text="Blood type:"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -59,6 +61,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@+id/blood_value"
                 android:text="Asthma:"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -76,6 +79,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@+id/asthma_value"
                 android:text="Blood pressure:"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -94,6 +98,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@+id/blood_pressure_value"
                 android:text="Heart Disease:"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -112,6 +117,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@+id/heart_disease_value"
                 android:text="Diabetes:"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -129,6 +135,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@+id/diabetes_value"
                 android:text="Other:"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -146,6 +153,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@+id/other_value"
                 android:text="None:"
+                android:textColor="@color/Blue"
                 android:textStyle="bold"
                 android:textSize="16sp" />
 
@@ -156,6 +164,18 @@
                 android:layout_below="@+id/none"
                 android:layout_marginStart="18dp"
                 android:layout_marginLeft="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="29dp"
+                android:layout_marginRight="29dp"
+                app:srcCompat="@drawable/photo" />
 
         </RelativeLayout>
     </android.support.v4.widget.NestedScrollView>
